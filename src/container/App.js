@@ -32,7 +32,6 @@ onSearchChange = (event) =>{
 				<h1 className='f1'>RoboFriends</h1> 
 				<SearchBox searchChange={this.onSearchChange}/>
 				<Scroll>
-					<div></div>
 					<CardList robots={filteredRobots} />					
 				</Scroll>
 			</div>
